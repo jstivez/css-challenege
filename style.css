@@ -1,0 +1,33 @@
+/*header stying */
+header h1{
+color: rgb(143, 143, 212);
+background-color: rgb(37, 37, 90);
+margin-top: 20px;
+}
+
+
+
+header nav{
+    background: blue;
+}
+
+header nav h3 {
+    float: right;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 0px;
+    color: rgb(136, 136, 189);
+}
+
+
+header div h2{
+    float: right;
+    margin-top: 50px;
+
+}
+
+.hero img {
+    width: 600px;
+    height: 200px ;
+
+}
