@@ -66,6 +66,7 @@ header nav ul li {
 
   .about-me-flex{
       display: flex;
+     
   }
    
 
@@ -89,7 +90,7 @@ header nav ul li {
 
 .work-flex{
     display: flex;
-    
+   
 }
 
 #img-conatiner{
@@ -98,7 +99,7 @@ header nav ul li {
     max-height: 400px;
     border: 6px solid gray;
     margin-right: 30px;
-   
+   margin-bottom: 20px;
 }
 
  
@@ -110,10 +111,32 @@ header nav ul li {
 }
 
 .grid-container{
-    float: right;
-    max-width: 1000px;
-    max-height: 400px;
-    border: 6px solid gray;
-    margin-right: 30px;
    
+    display: flex;
+   
+}
+
+.grid-item{
+    max-width: 400px;
+    max-height: 200px;
+    float: right;
+    margin-bottom: 40px;
+    margin-left: 135px;
+    margin-right: 30px;
+    border:6px solid gray;
+}
+
+.gi{
+    height:100%;
+    width: 100%;
+}
+
+footer nav ul li {
+    float: right;
+    display: flex;
+    display: inline;
+    margin-right: 50px;
+    margin-top: 40px;
+    font-size: 120%;
+
 }
