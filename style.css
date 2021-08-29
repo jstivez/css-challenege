@@ -55,6 +55,7 @@ header nav ul li {
 
 #pfp{
     margin: 25px 25px 25px 25px;
+    border: 6px solid gray;
 }
 .hero-text{
     float:right;
@@ -143,6 +144,12 @@ footer nav ul li {
     margin-right: 50px;
     margin-top: 40px;
     font-size: 120%;
-    
+  
 
+}
+.link{
+    text-decoration:none;
+    color: rgb(31, 31, 63);
+    font-weight: bold;
+    
 }
